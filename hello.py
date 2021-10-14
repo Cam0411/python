@@ -7,4 +7,4 @@ chieu = int(input("calo toi"))
 trongngay = int(input("so van dong"))
 sum = sang + trua + chieu - trongngay 
 a = ("{} {} co luong calo trong ngay la {} ")
-print(a.format(day,name,sum))
+print(a.format(day,name,round((sum))
